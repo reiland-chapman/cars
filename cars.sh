@@ -25,7 +25,7 @@ case "$choice" in
 		choice=0
 		;;
 	"2")
-		cat My_old_cars | sort
+		less My_old_cars | sort
 		choice=0
 		;;
 	"3")
