@@ -10,7 +10,8 @@ do
 	read choice
 
 case "$choice" in
-	"1")    year=0
+	"1")   
+	       	year=0
 		while echo "$year" | egrep -v "^[0-9]{4}$"
 		do
 			echo "Enter year"
